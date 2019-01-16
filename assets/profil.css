@@ -1,0 +1,47 @@
+   
+    .box{
+    width: 450px;
+    height: 601px;
+    background: rgba(0, 0, 0, 0.651);
+    padding: 50px;
+    /* text-align: center; */
+    margin: auto;
+    /* color: white; */
+    font-family: 'Century Gothic',sans-serif;
+    }
+    body{
+        background: url(social.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    a{
+        font-size:20px;
+        text-decoration:none;
+        color: white; 
+        padding: 5px 20px;
+        border: 1px solid transparent;
+        transition: 0.6s ease;
+        font-family: sans-serif;
+        margin-top: 10%;
+        margin-left: 30%;
+        /* text-align: left; */
+    }
+    a:hover{
+        background-color: white ; 
+        color:  darkblue ;
+        border: 2px solid rgb(30, 58, 86, 0.8); 
+        border-radius: 40px;
+        transition-duration: 0.5s;
+        
+    }
+    h1, h5, p{
+        text-align: center;
+        color: white;
+    }
+    h5{
+        font-size:22px;
+        margin-top: -15px;
+    }
+    p{
+        font-size: 20px;
+    }
